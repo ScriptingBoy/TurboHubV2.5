@@ -6,7 +6,7 @@ game.StarterGui:SetCore("SendNotification", {
 
 Title = "We're back"; 
 
-Text = " GhostTuber UI Has Actived"; -- what the text says (ofc) 
+Text = " GhostTuber Hub Has Actived"; -- what the text says (ofc) 
 
 Duration = 10; 
 
@@ -33,11 +33,11 @@ main.Draggable = true
 
 title.Name = "title"
 title.Parent = main
-title.BackgroundColor3 = Color3.new(0, 0, 0)
+title.BackgroundColor3 = Color3.new(242, 243, 243)
 title.Size = UDim2.new(0, 394, 0, 49)
 title.Font = Enum.Font.GothamBold
 title.Text = "GhostTuber Hub V2.0 Beta"
-title.TextColor3 = Color3.new(242, 243, 243)
+title.TextColor3 = Color3.new(196, 40, 28)
 title.TextSize = 14
 
 Text.Name = "Text"
@@ -57,7 +57,7 @@ end)
 
 Te.Name = "Te"
 Te.Parent = main
-Te.BackgroundColor3 = (0, 0, 0)
+Te.BackgroundColor3 = (196, 40, 28)
 Te.Position = UDim2.new(0.614457846, 0, 0.379146934, 0)
 Te.Size = UDim2.new(0, 200, 0, 140)
 Te.Font = Enum.Font.GothamBold
@@ -72,7 +72,7 @@ end)
 
 close.Name = "close"
 close.Parent = main
-close.BackgroundColor3 = Color3.new(0, 0, 0)
+close.BackgroundColor3 = Color3.new(196, 40, 28)
 close.Position = UDim2.new(0.879518092, 0, 0, 0)
 close.Size = UDim2.new(0, 50, 0, 41)
 close.Font = Enum.Font.GothamBlack
@@ -88,7 +88,7 @@ end)
 
 open.Name = "OPEN"
 open.Parent = main
-open.BackgroundColor3 = Color3.new(0, 0, 0)
+open.BackgroundColor3 = Color3.new(196, 40, 28)
 open.Size = UDim2.new(0, 129, 0, 48)
 open.Font = Enum.Font.GothamBold
 open.Text = "Open"
