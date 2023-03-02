@@ -24,7 +24,7 @@ ScreenGui.Parent = game.CoreGui
 
 main.Name = "GhostTuber Gui"
 main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.new(1, 0, 0)
+main.BackgroundColor3 = Color3.new(0, 0, 0)
 main.Position = UDim2.new(0.0203577988, 0, 0.641277611, 0)
 main.Size = UDim2.new(0, 472, 0, 321)
 main.Visible = true
@@ -33,7 +33,7 @@ main.Draggable = true
 
 title.Name = "title"
 title.Parent = main
-title.BackgroundColor3 = Color3.new(0, 0, 0)
+title.BackgroundColor3 = Color3.new(1, 0, 0)
 title.Size = UDim2.new(0, 324, 0, 33)
 title.Font = Enum.Font.GothamBold
 title.Text = "GhostTuber Hub V2"
@@ -46,26 +46,25 @@ Text.BackgroundColor3 = Color3.new(1, 0, 1)
 Text.Position = UDim2.new(0.036144577, 0, 0.379146934, 0)
 Text.Size = UDim2.new(0, 110, 0, 50)
 Text.Font = Enum.Font.GothamBold
-Text.Text = "Davi Hub"
+Text.Text = "Ice Hub V7"
 Text.TextColor3 = Color3.new(242, 243, 243)
 Text.TextScaled = true
 Text.TextSize = 12
 Text.TextWrapped = true
 Text.MouseButton1Down:connect(function()
-loadstring(game:HttpGet('https://pastebin.com/raw/U5WHe7jh'))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
 end)
  
 Te.Position = UDim2.new(0.614457846, 0, 0.379146934, 0)
 Te.Size = UDim2.new(0, 200, 0, 140)
 Te.Font = Enum.Font.GothamBold
-Te.Text = "The Mimic B2 script"
+Te.Text = "Arceus X v3 gui"
 Te.TextColor3 = Color3.new(242, 243, 243)
 Te.TextScaled = true
 Te.TextSize = 14
 Te.TextWrapped = true
 Te.MouseButton1Down:connect(function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicPoomHubBookIIFirst/main/.Lua"))()
-end)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
 
 close.Name = "close"
 close.Parent = main
