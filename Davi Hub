@@ -24,17 +24,28 @@ main.Visible = true
 main.Active = true
 main.Draggable = true
 
+Title.Name = ("Title")
+Title.Parent = Frame
+Title.Color = Udim2.new(0,0,0)
+Title.Size = Udim2.new(0, 199, 0, 231)
+Title.Text = ("Davi Hub 2.1 Beta")
+Title.Active = true
+Title.Draggable = true 
+Title.TextDraggable = true
+Title.Font = Udim2.new(SourceSansSemibold)
+Title.Position = Udim2.new(0.0962477154,0, 0.632578912,0)
+
 Text.Name = ("Text")
 Text.Parent = Textbutton
 Text.Color = Color.new(221,716,279)
 Text.Position = Udim2.new(0.0313577918,0, 0.635278911, 0)
-Text.Text = ("Daku Hub Beta Script)
+Text.Text = ("Infinite Yield)
 Text.Size = Udim2.new(0, 199, 0, 231)
 Text.Font = Udim2.new(SourceSansSemibold)
 Text.Active = true
 Text.Draggable = true
 TextButtonMouse1:connect(function()
-loadstring(game:HttpGet('https://pastebin.com/Zh3qCMFy'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 script.name = ("script")
@@ -203,17 +214,6 @@ Loop.MouseButton1Click:Connect(function()
   until not _G.loopkill
  end
 end)
-Title.Name = ("Title")
-Title.Parent = Frame
-Title.Color = Udim2.new(0,0,0)
-Title.Size = Udim2.new(0, 199, 0, 231)
-Title.Text = ("Daku Hub")
-Title.Active = true
-Title.Draggable = true 
-Title.TextDraggable = true
-Title.Font = Udim2.new(SourceSansSemibold)
-Title.Position = Udim2.new(0.0962477154,0, 0.632578912,0)
-
 
 Close.Name = ("Close")
 Close.Parent = Textbutton
@@ -238,7 +238,7 @@ Open.Name = ("Open")
 Open.Active = true
 Open.Draggable = true
 Open.BackGroundColor = Udim2.new(0, 0, 0)
-Open.Parent = Textbutton
+Open.Parent = TextButton
 Open.Text = ("Opening")
 Open.Position = Udim2.new(0.6183627271,0, 0.977646454754,0)
 Open.Size = Udim2.new(0, 321, 0, 200)
@@ -246,4 +246,4 @@ Openmain.Visible = false
 main.Visible = true
 Open.MouseButton1Down:connect(function()
 end)
-end)
+
