@@ -1,6 +1,5 @@
 -- Gui to Lua
 -- Version : 3.2
--- Note : This Script Are Now Allowing Pe And Pc So U Guys Can use it perfectly!And I Am Want To who be tester 
 
 game.StarterGui:SetCore("SendNotification", { 
 
@@ -33,7 +32,7 @@ main.Draggable = true
 
 title.Name = "title"
 title.Parent = main
-title.BackgroundColor3 = Color3.new(1, 0, 0)
+title.BackgroundColor3 = Color3.new(1, 0, 1)
 title.Size = UDim2.new(0, 324, 0, 33)
 title.Font = Enum.Font.GothamBold
 title.Text = "GhostTuber Hub V2"
