@@ -57,13 +57,14 @@ end)
 Te.Position = UDim2.new(0.614457846, 0, 0.379146934, 0)
 Te.Size = UDim2.new(0, 200, 0, 140)
 Te.Font = Enum.Font.GothamBold
-Te.Text = "Arceus X v3 gui"
+Te.Text = "Arceus X V3 Gui"
 Te.TextColor3 = Color3.new(242, 243, 243)
 Te.TextScaled = true
 Te.TextSize = 14
 Te.TextWrapped = true
 Te.MouseButton1Down:connect(function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+end)
 
 close.Name = "close"
 close.Parent = main
@@ -76,9 +77,9 @@ close.TextColor3 = Color3.new(196, 40, 28)
 close.TextScaled = true
 close.TextSize = 14
 close.TextWrapped = true
-close.MouseButton1Down:connect(function()
 main.Visible = false
-end)
+close.MouseButton1Down:connect(function()
+
 
 open.Name = "OPEN"
 open.Parent = main
@@ -89,6 +90,6 @@ open.Text = "Open"
 open.TextColor3 = Color3.new(196, 40, 28)
 open.TextSize = 14
 open.TextWrapped = true
-open.MouseButton1Down:connect(function()
 main.Visible = true
+open.MouseButton1Down:connect(function()
 end)
