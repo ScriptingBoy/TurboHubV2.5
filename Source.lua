@@ -18,6 +18,8 @@ local Text = Instance.new("TextButton")
 local Te = Instance.new("TextButton")
 local close = Instance.new("TextButton")
 local open = Instance.new("TextButton")
+local Password = Instance.new("Frame")
+local Script = Instance.new("TextButton")
 --Properties:
 ScreenGui.Parent = game.CoreGui
 
@@ -80,7 +82,6 @@ close.TextWrapped = true
 main.Visible = false
 close.MouseButton1Down:connect(function()
 
-
 open.Name = "OPEN"
 open.Parent = main
 open.BackgroundColor3 = Color3.new(1, 0, 1)
@@ -92,4 +93,26 @@ open.TextSize = 14
 open.TextWrapped = true
 main.Visible = true
 open.MouseButton1Down:connect(function()
+
+Password.Name = ("Password")
+Password.Parent = main
+Password.Active = true
+Password.Draggable = true
+Password.BackgroundColor3 = Vector3.new(0, 0, 0)
+Password.Size = Vector3.new(0, 221, 0, 31)
+Password.Position = Vector3.new(0.0203577988, 0, 0.641277611, 0)
+
+Script.Name = ("Script")
+Script.Parent = Password
+Script.BackgroundColor3 = UDim2.new(1, 0, 1)
+Script.Size = UDim2.new(0, 213, 0, 31)
+Script.Position = UDim2.new(0.0203577988, 0, 0.641277611, 0)
+Script.MouseButton1click:Connect(function()
+script.Parent.MouseButton1click:Connect(function()
+  if script.Parent.Parent.TextBox.Text =="Hiha"then
+    script.parent.Parent.Parent.Frame2.Visible = true
+   end
 end)
+
+
+
