@@ -1,3 +1,6 @@
+-- Gui to Lua
+-- Version : 3.2
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Jojo UI", "DarkTheme")
 local Tab = Window:NewTab("JOJO HUB 1")
