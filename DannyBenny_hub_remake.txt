@@ -1,5 +1,5 @@
--- Gui to Lua
--- Version: 3.2
+print("Script Made By TranthanhthaiZ")
+print("Key Vaild : 38 hours")
 
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("DannyBenny Hub Remake", "Ocean")
@@ -51,5 +51,4 @@ Tab2:NewButton("Chaotic top hat script", "Op script to get chaotic top hat, func
 Tab2:NewButton("The mimic b2 gui", "The Mimic Gui b2c1 Credits Owner, function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicPoomHubBookIIFirst/main/.Lua"))()
     end
-end)
 end)
