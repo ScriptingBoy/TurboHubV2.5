@@ -3,12 +3,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 
 
 function Script()
-    local Window = Library.CreateLib("SimpleHub", "Badass Yo Guys")
+    local Window = Library.CreateLib("Shadow Hub", "Badass Yo Guys")
 
 
 
-    local Main = Window:NewTab("Main")
-    local MainSection = Main:NewSection("Main")
+    local Main = Window:NewTab("Shadow Hub")
+    local MainSection = Main:NewSection("Shadow Hub")
 
 
     -- Script
