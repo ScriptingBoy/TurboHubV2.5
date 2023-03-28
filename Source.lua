@@ -3,9 +3,9 @@
 
 game.StarterGui:SetCore("SendNotification", { 
 
-Title = "We're back"; 
+Title = "Script Worked!"; 
 
-Text = " GhostTuber Hub Has Actived"; -- what the text says (ofc) 
+Text = " Shadow Hub Has Actived"; -- what the text says (ofc) 
 
 Duration = 10; 
 
@@ -37,7 +37,7 @@ title.Parent = main
 title.BackgroundColor3 = Color3.new(1, 0, 1)
 title.Size = UDim2.new(0, 324, 0, 33)
 title.Font = Enum.Font.GothamBold
-title.Text = "GhostTuber Hub V2"
+title.Text = "Shadow Hub Release"
 title.TextColor3 = Color3.new(196, 40, 28)
 title.TextSize = 16
 
@@ -112,6 +112,7 @@ script.Parent.MouseButton1click:Connect(function()
   if script.Parent.Parent.TextBox.Text =="Hiha"then
     script.parent.Parent.Parent.Frame2.Visible = true
    end
+end)
 end)
 
 
