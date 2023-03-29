@@ -28,7 +28,7 @@ Button.Parent = Frame
 -- define the function to check the code
 local function checkCode(code)
     -- replace this with your own code verification logic
-    if code == "Tranthanhthaiz123" or code == "no" then
+    if code == "Tranthanhthaiz123" or code == "TranthanhthaiZScripts" then
         return true
     else
         return false
