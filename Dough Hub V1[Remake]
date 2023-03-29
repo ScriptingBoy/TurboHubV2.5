@@ -1,5 +1,5 @@
--- 'Credits to TranthanhthaiZ'
--- 'Create a ScreenGui to hold the credits'
+-- Credits to TranthanhthaiZ
+-- Create a ScreenGui to hold the credits
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "Credits"
 ScreenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
