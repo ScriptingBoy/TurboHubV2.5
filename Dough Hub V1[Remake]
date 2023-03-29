@@ -166,7 +166,7 @@ Frame.Size = UDim2.new(0, 200, 0, 50)
 Frame.Parent = ScreenGui
 
 local Decal = Instance.new("Decal")
-Decal.Texture = "rbxassetid://" .. decalId
+Decal.Texture = "rbxassetid://132769598"
 Decal.Face = Enum.NormalId.Back
 Decal.Parent = Frame
 
@@ -206,7 +206,7 @@ local VLib = loadstring(game:HttpGet("https://pastebin.com/raw/Mb49kKTP"))()
 
 		MAINTTL = "DOUGH HUB V1" 
 
-local win = VLib:Window("daviscripts", Color3.fromRGB(196, 40, 28))
+local win = VLib:Window("TranthanhthaiZScripts", Color3.fromRGB(196, 40, 28))
 
 local ss1 = win:Tab("HOW TO USE")
 local ss = win:Tab("MAIN")
@@ -575,8 +575,8 @@ ss:Button("zeus hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/BlodyXHub/ZeusHub/main/Loading_Ui"))()
 end)
 
-cred:Label("MADE BY TRANTHANHTHAIZ ")
-cred:Label("GUI BY ARCEUS X")
-cred:Label("JN HH GAMING IS TESTER ")
+cred:Label(" MADE BY TRANTHANHTHAIZ ")
+cred:Label(" GUI BY ARCEUS X ")
+cred:Label(" JN HH GAMING IS TESTER ")
 cred:Label(" Huge Credits to daviscripts  ")
 cred:Label(" Thanks For Use.   ")
