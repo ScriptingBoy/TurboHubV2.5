@@ -4,7 +4,7 @@ local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "Credits"
 ScreenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 
--- Acesse o objeto PlayerGui do jogador local
+-- Create PlayerGui To Show The Health Script
 local playerGui = game.Players.LocalPlayer.PlayerGui
 
 --contador de vida mais melhor do que o atual
@@ -12,12 +12,12 @@ local playerGui = game.Players.LocalPlayer.PlayerGui
 -- Crie uma nova variável para a quantidade de saúde do jogador
 local health = 100
 
--- Crie uma nova tela GUI para o GUI de saúde
+-- Create a ScreenGui For Health script
 local healthGui = Instance.new("ScreenGui")
 healthGui.Name = "HealthGui"
 healthGui.Parent = playerGui
 
--- Crie uma nova moldura para o GUI de saúde
+-- A Frame That Can Show The Script
 local healthFrame = Instance.new("Frame")
 healthFrame.Name = "HealthFrame"
 healthFrame.Size = UDim2.new(0, 150, 0, 20)
