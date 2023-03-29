@@ -99,7 +99,7 @@ ImageLabel.Name = "Image"
 ImageLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 ImageLabel.Position = UDim2.new(0.5, 0, 0.4, 0)
 ImageLabel.Size = UDim2.new(0.2, 0, 0.2, 0)
-ImageLabel.Image = "https://www.roblox.com/asset-thumbnail/image?assetId=1117607358&thumbnailFormat=png&width=420&height=420&fit=bounds"
+ImageLabel.Image = "https://www.roblox.com/asset-thumbnail/image?assetId=10218442298&thumbnailFormat=png&width=420&height=420&fit=bounds"
 ImageLabel.Parent = ScreenGui
 
 -- Create a TextLabel to display the text
