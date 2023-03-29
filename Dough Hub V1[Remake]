@@ -4,12 +4,12 @@ local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "Credits"
 ScreenGui.Parent = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
 
--- Create PlayerGui To Show The Health Script
+-- Create PlayerGui To Show UI
 local playerGui = game.Players.LocalPlayer.PlayerGui
 
 --contador de vida mais melhor do que o atual
 
--- Crie uma nova variável para a quantidade de saúde do jogador
+-- The Script
 local health = 100
 
 -- Create a ScreenGui For Health script
@@ -26,7 +26,7 @@ healthFrame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 healthFrame.BorderSizePixel = 0
 healthFrame.Parent = healthGui
 
--- Crie uma nova barra de progresso para o GUI de saúde
+-- Create A Frame For HealthBar
 local healthBar = Instance.new("Frame")
 healthBar.Name = "HealthBar"
 healthBar.Size = UDim2.new(1, 0, 1, 0)
@@ -34,9 +34,9 @@ healthBar.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 healthBar.BorderSizePixel = 0
 healthBar.Parent = healthFrame
 
--- Crie uma função para atualizar o GUI de saúde com a quantidade de saúde atual
+-- Create Update HealthBarGui
 local function updateHealthGUI()
-   -- Defina o tamanho da barra de progresso com base na quantidade de saúde atual
+  Size Of HealthBar
    healthBar.Size = UDim2.new(health / 100, 0, 1, 0)
 end
 
@@ -50,15 +50,15 @@ game.Players.LocalPlayer.Character.Humanoid.HealthChanged:Connect(function(newHe
 end)
 
 --contador de fps bonitão
--- Acesse o objeto PlayerGui do jogador local
+-- Fps Gui PlayerGui
 local playerGui = game.Players.LocalPlayer.PlayerGui
 
--- Crie uma nova tela GUI para o contador de FPS
+-- ScreenGui For Fps Gui
 local fpsGui = Instance.new("ScreenGui")
 fpsGui.Name = "FpsGui"
 fpsGui.Parent = playerGui
 
--- Crie uma nova etiqueta para exibir o contador de FPS
+-- Script Of Fps Working
 local fpsLabel = Instance.new("TextLabel")
 fpsLabel.Name = "FpsLabel"
 fpsLabel.Size = UDim2.new(0, 100, 0, 20)
@@ -73,10 +73,10 @@ fpsLabel.Parent = fpsGui
 -- Crie uma variável para armazenar o tempo desde a última atualização
 local lastUpdate = tick()
 
--- Crie uma variável para armazenar a contagem de quadros por segundo atual
+-- Anti lag
 local fps = 0
 
--- Crie uma função para atualizar o contador de FPS
+-- The Counter Of Fps
 local function updateFpsCounter()
     -- Calcule o tempo decorrido desde a última atualização
     local deltaTime = tick() - lastUpdate
@@ -111,7 +111,7 @@ TextLabel.Size = UDim2.new(0.5, 0, 0.1, 0)
 TextLabel.Font = Enum.Font.GothamBold
 TextLabel.TextColor3 = Color3.new(1, 1, 1)
 TextLabel.TextScaled = true
-TextLabel.Text = "made by daviscripts"
+TextLabel.Text = "made by tranthanhthaiz"
 TextLabel.Parent = ScreenGui
 
 -- Create a function to animate the credits
@@ -138,7 +138,7 @@ end
 animateCredits()
 
 -- Define the credit text and duration
-local creditText = "Made by DAVISCRIPT"
+local creditText = "Made by TranthanhthaiZ"
 local creditDuration = 3 -- in seconds
 
 -- Define the list of decal IDs to choose from
@@ -204,7 +204,7 @@ animateNotification()
 local VLib = loadstring(game:HttpGet("https://pastebin.com/raw/Mb49kKTP"))()
 
 
-		MAINTTL = "DAVI HUB V1" 
+		MAINTTL = "DOUGH HUB V1" 
 
 local win = VLib:Window("daviscripts", Color3.fromRGB(196, 40, 28))
 
@@ -213,11 +213,11 @@ local ss = win:Tab("MAIN")
 local sss = win:Tab("MISC")
 local cred = win:Tab("CREDITS")
 
-ss1:Button("destruir o gui",function()
+ss1:Button("destroy script",function()
 game.CoreGui["Library"]:Destroy()
 end)
 
-ss:Button("gui para jogos",function()
+ss:Button("Game Hub Gui",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-Script/main/Games%20Hub%20(Always%20updated)"))()
 end)
    
@@ -578,5 +578,5 @@ end)
 cred:Label("MADE BY TRANTHANHTHAIZ ")
 cred:Label("GUI BY ARCEUS X")
 cred:Label("JN HH GAMING IS TESTER ")
-cred:Label(" UI Credits to daviscripts  ")
+cred:Label(" Huge Credits to daviscripts  ")
 cred:Label(" Thanks For Use.   ")
