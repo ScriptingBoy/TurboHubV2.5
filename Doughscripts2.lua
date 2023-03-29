@@ -41,7 +41,7 @@ Button.MouseButton1Click:Connect(function()
     if checkCode(code) then
         
         ScreenGui:Destroy() -- delete the GUI
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/TranthanhthaiZScripts/TurboHubV2.5/main/Dough.lua"), true))()
+        loadstring(game:HttpGet((''https://raw.githubusercontent.com/TranthanhthaiZScripts/TurboHubV2.5/main/Dough.lua''), true))()
     else
         -- code 
         warn("Invalid code")
