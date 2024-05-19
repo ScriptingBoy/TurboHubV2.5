@@ -52,8 +52,8 @@ Text.TextWrapped = true
 Text.MouseButton1Down:connect(function()
 ---By TranthanhthaiZ
 game:CoreGui:connect(SendNotification(;
-  title = ("Script By")
-  Text  = ("HT_Felix#5671") what the text says(ofc)
+  title = "Script By"
+  Text  = "HT_Felix#5671" what the text says(ofc)
 })
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
