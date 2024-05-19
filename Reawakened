@@ -34,7 +34,7 @@ title.Parent = main
 title.BackgroundColor3 = Color3.new(1, 0, 1)
 title.Size = UDim2.new(0, 332, 0, 31)
 title.Font = Enum.Font.GothamBold
-title.Text = "Turbo Hub V2.7"
+title.Text = "Redacted Hub V2.7"
 title.TextColor3 = Color3.new(0, 0, 0)
 title.TextSize = 14
 
@@ -79,7 +79,7 @@ Text.Name = "Text"
 Text.Parent = Textbutton
 Text.Color = Color.new(221,716,279)
 Text.Position = Udim2.new(0.0313577918,0, 0.635278911, 0)
-Text.Text = "Speed Gui"
+Text.Text = "SpeedWalk 50"
 Text.Size = Udim2.new(0, 199, 0, 231)
 Text.Font = Udim2.new(SourceSansSemibold)
 Text.Active = true
@@ -140,21 +140,19 @@ Open.MouseButton1Down:connect(function()
 end)
 end)
 
-end)
-
 Te.Name = "Te"
 Te.Parent = main
 Te.BackgroundColor3 = Color3.new(0.333333, 1, 0)
 Te.Position = UDim2.new(0.614457846, 0, 0.379146934, 0)
 Te.Size = UDim2.new(0, 110, 0, 50)
 Te.Font = Enum.Font.GothamBold
-Te.Text = "Yaga Hub"
+Te.Text = "Infinite Yield"
 Te.TextColor3 = Color3.new(0, 0, 0)
 Te.TextScaled = true
 Te.TextSize = 14
 Te.TextWrapped = true
 Te.MouseButton1Down:connect(function()
-
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 close.Name = "close"
