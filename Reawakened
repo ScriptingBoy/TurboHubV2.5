@@ -15,7 +15,7 @@ local Text = Instance.new("TextButton")
 local Te = Instance.new("TextButton")
 local close = Instance.new("TextButton")
 local open = Instance.new("TextButton")
---Properties:
+
 ScreenGui.Parent = game.CoreGui
 
 main.Name = "main"
@@ -48,7 +48,7 @@ Text.TextScaled = true
 Text.TextSize = 10
 Text.TextWrapped = true
 Text.MouseButton1Down:connect(function()
----By TranthanhthaiZ
+
 game:CoreGui:connect(SendNotification(;
   title = "Script By"
   Text  = "HT_Felix#5671" what the text says(ofc)
@@ -61,7 +61,7 @@ local script = Instance.new("TextButton")
 local Close = Instance.new("TextButton")
 local openmain = Instance.new("Frame")
 local Open = Instance.new("TextButton")
---Proprites:
+
 ScreenGui.Parent = game.CoreGui
  
 main.Name = "main"
