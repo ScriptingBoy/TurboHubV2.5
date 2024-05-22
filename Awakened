@@ -49,7 +49,7 @@ Text.TextSize = 10
 Text.TextWrapped = true
 Text.MouseButton1Down:connect(function()
 
-game.Starter:Setcore(SendNotification(;
+game.StarterGui:SetCore(SendNotification(;
   title = "Script By"
  Text = "TranthanhthaiZ" -- what the text says(ofc)
 })
