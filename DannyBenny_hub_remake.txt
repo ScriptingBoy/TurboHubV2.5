@@ -1,5 +1,6 @@
+print("Reset to close the script!, only use on PC")
 local Library = loadstring(game:HttpGet('https://pastebin.com/raw/vff1bQ9F'))()
-local Window = Library.CreateLib("DannyBenny Hub Remake", "Ocean")
+local Window = Library.CreateLib("Gomi No Hub", "Ocean")
 
 -- Tabs
 
@@ -45,7 +46,7 @@ Tab2:NewButton("Chaotic top hat script", "Op script to get chaotic top hat, func
       end
   end)
 
-Tab2:NewButton("The mimic b2 gui", "The Mimic Gui b2c1 Credits Owner, function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/poisklmpoikslms901i234/ScriptTheMimicPoomHubBookIIFirst/main/.Lua"))()
+Tab2:NewButton("Tiger Admin Script", "No Credits, function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
     end
 end)
